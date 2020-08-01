@@ -34,6 +34,10 @@
                         url: 'https://vjudge.net/',
                     },
                     {
+                        title: '数列查询',
+                        url: 'http://oeis.org/',
+                    },
+                    {
                         title: '图论做图',
                         url: 'https://csacademy.com/app/graph_editor/',
                     },
@@ -66,7 +70,7 @@
         },
         github: {
             enable: false,
-            link: 'https://github.com/youxam',
+            link: 'https://github.com/hello-hhy',
             target: '_self'
         }
     });
@@ -160,5 +164,5 @@ setTimeout(()=>{$("html").scrollTop($("html").scrollTop() - 60)},3)
  <script>
 function showdiv(){
 if($("#sidebar_scorerank").css("display")=='none'){
-$("#sidebar_scorerank").css("display","block");
+$("#sidebar_scorerank").css("display","block");}}
 </script>
